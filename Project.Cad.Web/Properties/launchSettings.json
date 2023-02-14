@@ -1,0 +1,26 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49388",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Project.Cad.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5015",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+
+        "DATABASE_CONNECTIONSTRING": "mongodb+srv://app-dev-bifrost-shared:5vY9mzmXWj9Wgqhd@dev-bifrost-shared-pl-1.hafzl.mongodb.net",
+        "DATABASE_NAME": "test"
+
+      }
+    }
+  }
+}
