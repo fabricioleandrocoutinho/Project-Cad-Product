@@ -6,6 +6,9 @@
 
 This project is responsible for registering the products. it has a swagger so that the user can register the products
 
+# Video
+  Presentation video is in the root folder, named Video - Presentation of Projecto.rar
+
 ## Route
 {odin-base-url}/swagger/index.html
 
